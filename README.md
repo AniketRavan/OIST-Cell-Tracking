@@ -1,4 +1,4 @@
-# OIST-Cell-Tracking
+#Synopsis
 This is a semi-supervised tracking algorithm written to track cells in phase contrast images using MATLAB's R2015a version. Images undergo binary classification based on pixel intensity and local standard deviation of pixel values. A Support Vector Machine classifier is used for this step. The classifier is automatically trained in every frame using information between successive frames. 
 Please note that the algorithm is written for single cell studies and only independent cells are tracked. The rate at which images are captured has to be above a certain minimum. The algorithm may give erroneous results if the distance traveled by any cell between two frames is greater than its own dimension. 
 
